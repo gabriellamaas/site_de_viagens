@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    background: #C1627A;
+    color: white;
+
+}
+
+/* comentário*/
+
+header{
+    background: no-repeat center/cover url("assets/alin-meceanu-7WImcXVzyHk-unsplash.jpg");
+    height: calc(100vh - 0px);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 90px;
+}
+
+header nav ul {
+    display: flex;
+    color: white;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav p {
+    font-weight: bold;
+}
+
+.header-content {
+    color: white;
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+header nav p {
+    color: white;
+}
+
+.header-content h1 {
+    margin-bottom: 10px;
+    font-size: 3rem;
+    
+}
