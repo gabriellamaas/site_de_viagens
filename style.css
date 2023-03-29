@@ -67,3 +67,39 @@ header nav p {
     font-size: 3rem;
     
 }
+
+.pacotes .pacotes-tittle {
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+    font-size: 3rem;
+}
+
+.pacotes {
+    background: #C1627A;
+    padding: 15px;
+}
+
+.pacotes .pacotes-card {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pacotes .card-image{
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 24px;
+}
+
+.pacotes-card{
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 24px 24px;
+    margin: 25px;
+    position: relative;
+}
