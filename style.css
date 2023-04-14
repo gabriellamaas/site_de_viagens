@@ -20,7 +20,7 @@ button {
     border-radius: 8px;
     font-weight: bold;
     border: 0;
-    background: #C1627A;
+    background: #C92D59;
     color: white;
 
 }
@@ -221,7 +221,7 @@ header nav p {
 }
 
 footer {
-    height: 450px;
+    height: 420px;
     background-color: #7673B4;
 }
 
@@ -254,5 +254,10 @@ footer {
 }
 
 .nome {
+    font-weight: bold;
+}
+
+.destino-famoso {
+    color: #C1627A;
     font-weight: bold;
 }
