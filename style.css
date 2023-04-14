@@ -220,20 +220,39 @@ header nav p {
     text-align: center;
 }
 
-.contatos {
-    height: 250px;
-    background: #7673B4;
+footer {
+    height: 450px;
+    background-color: #7673B4;
+}
+
+.Contato h3{
+    color: white;
+    font-size: 24px;
+    padding: 30px;  
     text-align: center;
 }
 
-.contatos {
-    padding: 15px;
+.Contato .icones ul li {
+    color: white;
+    line-height: 2.8;
 }
 
-.contatos .mail svg {
-    color: white;
+.Contato .icones ul li svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
 }
 
-.contatos .facebook svg {
-    color: white;
+.auth {
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #e9e9e9;
+}
+
+.nome {
+    font-weight: bold;
 }
