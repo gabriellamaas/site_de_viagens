@@ -20,7 +20,7 @@ button {
     border-radius: 8px;
     font-weight: bold;
     border: 0;
-    background: #C92D59;
+    background: #C36379;
     color: white;
 
 }
@@ -28,7 +28,7 @@ button {
 /* comentário*/
 
 header{
-    background: no-repeat center/cover url("assets/alin-meceanu-7WImcXVzyHk-unsplash.jpg");
+    background: no-repeat center/cover url("assets/fototailandia.jpg");
     height: calc(100vh - 0px);
 }
 
@@ -174,7 +174,7 @@ header nav p {
 
 .servicos .servicos-title {
     text-align: center;
-    margin: 35px 0;
+    margin: 20px 0;
 }
 
 .servicos .servicos-cards {
@@ -221,8 +221,9 @@ header nav p {
 }
 
 footer {
-    height: 420px;
+    height: 320px;
     background-color: #7673B4;
+    text-align: center;
 }
 
 .Contato h3{
@@ -230,11 +231,24 @@ footer {
     font-size: 24px;
     padding: 30px;  
     text-align: center;
+    margin-bottom: 0px;
+}
+
+.Contato .icones {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Contato .icones ul {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 
 .Contato .icones ul li {
     color: white;
     line-height: 2.8;
+    display: inline-block;
+    margin-right: 10px;
 }
 
 .Contato .icones ul li svg {
@@ -243,7 +257,16 @@ footer {
     margin-right: 10px;
 }
 
-.auth {
+.nome {
+    font-weight: bold;
+}
+
+.destino-famoso {
+    color: #EA977C;
+    font-weight: bold;
+}
+
+.pertence {
     color: black;
     position: fixed;
     bottom: 0;
@@ -253,11 +276,3 @@ footer {
     background-color: #e9e9e9;
 }
 
-.nome {
-    font-weight: bold;
-}
-
-.destino-famoso {
-    color: #C1627A;
-    font-weight: bold;
-}
