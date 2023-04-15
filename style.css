@@ -233,6 +233,16 @@ footer {
     text-align: center;
 }
 
+.Contato .icones {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Contato .icones ul {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
 .Contato .icones ul li {
     color: white;
     line-height: 2.8;
